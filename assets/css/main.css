@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+header .topnav {
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+header .topnav i {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 40px;
+}
+header .topnav img {
+  width: 220px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.firstsection {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/new-coca-cola-slogan-section-homepage-desktop-1600.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main #menu {
+  margin-top: 70px;
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  align-items: center;
+  display: none;
+  z-index: 2;
+}
+main #menu ul {
+  margin: 100px 20px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+main #menu ul li a {
+  color: white;
+}
+main #menu ul li a:hover {
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+}
+main #menu.active {
+  display: block;
+}
+
+.secondsection {
+  width: 100%;
+  min-height: 10vh;
+  margin-top: -25px;
+  overflow: hidden;
+}
+.secondsection .cards1 {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.secondsection .cards1 .cards1left {
+  overflow: hidden;
+  width: 58%;
+  height: 60vh;
+  background-image: url(../imgs/card1img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.secondsection .cards1 .cards1left:hover {
+  transform: scale(1.1);
+  transition: 1.5s all ease;
+  overflow: hidden;
+}
+.secondsection .cards1right {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  height: 60vh;
+  overflow: hidden;
+}
+.secondsection .cards1right #card2 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../imgs/card2img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.secondsection .cards1right #card2:hover {
+  transform: scale(1.1);
+  transition: 1.5s all ease;
+  overflow: hidden;
+}
+.secondsection .cards1right #card3 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../imgs/card3img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.secondsection .cards1right #card3:hover {
+  transform: scale(1.1);
+  transition: 1.5s all ease;
+  overflow: hidden;
+}
+.secondsection .cards2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  overflow: hidden;
+}
+.secondsection .cards2 #card4 {
+  width: 33%;
+  height: 60vh;
+  background-image: url(../imgs/card4img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.secondsection .cards2 #card4:hover {
+  transform: scale(1.1);
+  transition: 1.5s all ease;
+  overflow: hidden;
+}
+.secondsection .cards2 #card5 {
+  width: 33%;
+  height: 60vh;
+  background-image: url(../imgs/card5img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.secondsection .cards2 #card5:hover {
+  transform: scale(1.1);
+  transition: 1.5s all ease;
+  overflow: hidden;
+}
+.secondsection .cards2 #card6 {
+  width: 34%;
+  height: 60vh;
+  background-image: url(../imgs/card6img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.secondsection .cards2 #card6:hover {
+  transform: scale(1.1);
+  transition: 1.5s all ease;
+  overflow: hidden;
+}
+
+.thirdsection {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsection .thirdsectionmain {
+  width: 70%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.thirdsection .thirdsectionmain .lists {
+  width: auto;
+  height: auto;
+}
+.thirdsection .thirdsectionmain .lists ul {
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.thirdsection .thirdsectionmain .lists ul li {
+  font-size: 25px;
+}
+.thirdsection .thirdsectionmain .lists ul li a {
+  color: black;
+  font-weight: bold;
+}
+.thirdsection .thirdsectionmain .lists ul li a:hover {
+  color: red;
+}
+.thirdsection .thirdsectionmain .icons {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 50px;
+}
+.thirdsection .thirdsectionmain .icons i {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid rgb(84, 82, 82);
+  color: rgb(113, 109, 109);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 996px) {
+  .secondsection {
+    flex-direction: column;
+  }
+  .secondsection .cards1 {
+    flex-direction: column;
+  }
+  .secondsection .cards1 .cards1left {
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+  }
+  .secondsection .cards1right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    height: 90vh;
+  }
+  .secondsection .cards1right #card2 {
+    height: 45vh;
+  }
+  .secondsection .cards1right #card3 {
+    height: 45vh;
+  }
+  .secondsection .cards2 {
+    height: 135vh;
+    flex-direction: column;
+  }
+  .secondsection .cards2 #card4 {
+    width: 100%;
+    height: 45vh;
+  }
+  .secondsection .cards2 #card4:hover {
+    transform: scale(1.1);
+    transition: 1.5s all ease;
+    overflow: hidden;
+  }
+  .secondsection .cards2 #card5 {
+    width: 100%;
+    height: 45vh;
+  }
+  .secondsection .cards2 #card5:hover {
+    transition: 1.5s all ease;
+  }
+  .secondsection .cards2 #card6 {
+    width: 100%;
+    height: 45vh;
+  }
+  .secondsection .cards2 #card6:hover {
+    transition: 1.5s all ease;
+  }
+  .thirdsection .thirdsectionmain {
+    width: 80%;
+    height: 40vh;
+    gap: 40px;
+  }
+  .thirdsection .thirdsectionmain .lists ul {
+    gap: 60px;
+  }
+  .thirdsection .thirdsectionmain .lists ul li {
+    font-size: 18px;
+  }
+  .thirdsection .thirdsectionmain .icons {
+    gap: 40px;
+  }
+  .thirdsection .thirdsectionmain .icons i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footerlogo img {
+  width: 250px;
+  height: 90px;
+}
+footer .footertexts {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+footer .footertexts ul {
+  display: flex;
+  gap: 20px;
+}
+footer .footertexts ul li a {
+  padding-left: 25px;
+  color: white;
+  border-left: 1px solid white;
+}
+
+@media only screen and (max-width: 996px) {
+  footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .footerlogo img {
+    width: 250px;
+    height: 90px;
+  }
+  footer .footertexts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  footer .footertexts p {
+    font-size: 10px;
+  }
+  footer .footertexts ul {
+    gap: 10px;
+  }
+  footer .footertexts ul li {
+    font-size: 15px;
+  }
+  footer .footertexts ul li a {
+    padding-left: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
